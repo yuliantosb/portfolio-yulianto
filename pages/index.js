@@ -48,7 +48,7 @@ class Index extends SuperComponent {
 
     return (
       <BaseLayout>
-        <h1>I am Index Page</h1>
+        <h1>I am Index Page, I was updated</h1>
         <h2>{this.state.title}</h2>
         <h2>{userData.title}</h2>
         <button onClick={() => this.updateTitle()}>Change Title</button>
